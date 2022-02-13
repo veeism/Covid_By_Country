@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.page-container{
+    position: relative;
+    min-height: 100vh;
+}
+
+.container h1{
+    color: white;
+}
+
+.title{
+    background-color: #d45353;
+    color: white;
+    padding: 40px;
+    font-size: 300%;
+}
+
+.background{
+    background-image: url('https://elijohnson565.github.io/Covid-By-Country/assets/images/earth.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search{
+    justify-content: center;
+    text-align: center; 
+}
+
+.data{
+    padding: 20px;
+    border: solid;
+    border-color: white;
+    border-radius: 10px 10px 10px 10px;
+    margin: 50px 0 50px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.data h1{
+    font-size: 180%;
+}
+
+.country{
+    font-size: 5vw;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #d45353;
+    position:sticky;
+    bottom:0;
+    text-align: center;
+}
+
+footer h1{
+    padding: 20px 0 20px 0;
+}
+
+#alert{
+    color:#ff3c3c;
+    padding-top: 20px;
+}
+
+#last-country{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 5vw;
+}
+
+@media (max-width: 480px) {
+    .title{
+        font-size: 200%;
+    }
+
+    .country{
+        font-size: 200%;
+    }
+
+    .data{
+        font-size: 80%;
+    }
+}

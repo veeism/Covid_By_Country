@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    <title>Covid By Country</title>
+
+</head>
+
+<body>
+
+    <div class="page-container">    
+        <!-- Create Header -->
+        <section class="background">
+        <header class="title has-text-centered">Covid by Country</header>
+
+    
+             <!-- Create search bar -->
+        <section class="search">
+            <input class="input is-medium" id="searchBar" type="text" placeholder="Enter Country Name"></input>
+            <h1 id="alert"></h1>
+            <button class="button is-medium mt-6" id="btn">Search</button> 
+        </section>
+                
+        <!-- Creat API display -->
+        <section class="container ">
+
+            <div class="has-text-centered country">
+                <h1 id="country"></h1>
+            </div>
+
+            <div class="data">
+                <h1 id="cases">Total Cases:</h1>
+            </div>
+
+            <div class="data">
+                <h1 id="deaths">Total Deaths:</h1>
+            </div>
+
+            <div class="data">
+                <h1 id="recovered">Total Recovered:</h1>
+            </div>
+
+            <div class="last-country">
+                <h1 id="last-country">
+
+                </h1>
+            </div>
+
+        </section>
+        </section>
+       
+        <footer>
+            <h1>&copy; 2022</h1>
+        </footer>
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="./assets/js/javascript.js"></script>
+
+</html>
